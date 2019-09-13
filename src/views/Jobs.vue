@@ -2,7 +2,16 @@
   <div class="jobs">
     <h1>Jobs page</h1>
     <h1>{{ job }}</h1>
-    <Contact/>
+    <div class="container">
+      <div class="row">
+        <div class = "col-6">
+            <Contact/>
+        </div>
+        <div class = "col-6">
+            <Contact/>
+        </div>
+      </div>
+    </div>
     <router-link to="/about">About</router-link> |
   </div>
 </template>
